@@ -1,3 +1,5 @@
+npm install para instalar las dependencias definidas el fichero package.json. la carpeta node_modules esta incluida en .gitignore para no subirlas a github
+
 Añado componentes a través de ficheros y codge datos de un json local
 
 
