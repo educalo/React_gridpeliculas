@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//estilos globales
 import './index.css';
 
 //Añade este componente a div principal de public/index.html
@@ -34,12 +35,27 @@ const contenido = (
 //llamada a un componente sin atributos
 //root.render(<Componente/>)
 
-function Componente(props){
+//desectructuracion de los parametros
+function Componente({ titulo, contenido }){
+  //function Componente(props){
   //me debe aparece un objeto con las propiedades pasadas
-  console.log(props);
+  //console.log(props);
   //puedo añadir expresiones de la siguiente manera
-  const titulo = props.titulo;
-  const contenido = props.contenido;
+  //const titulo = props.titulo;
+  //const contenido = props.contenido;
+
+  //la linea de codigo anteriores ya no hace falta con esta desectrutacion de objetos
+  //se puede deconstruir directamente en el parametro pasado en la funcion Componente
+  //const {titulo, contenido} = props;
+  //añado una clase a la etiqueta div, pero sigue siendo estilos globales
+  /*
+  return (
+    <div className="contenedor">
+      <h1>{titulo}</h1>
+      <div>{contenido}</div>
+    </div>
+  )
+  */
   return (
     <div>
       <h1>{titulo}</h1>
@@ -49,6 +65,7 @@ function Componente(props){
 }
 
 //al componente se le puede pasar atributos y se pasa al componente a traves de las props (propiedades)
+//root.render(<Componente titulo="Titulo" contenido="Hola desde React" />)
 root.render(<Componente titulo="Titulo" contenido="Hola desde React" />)
 
 

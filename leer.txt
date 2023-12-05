@@ -6,3 +6,12 @@
 5.- borro fichero del src todo menos index.css y index.js y modifico este ultimo
 
 6.- La pagina https://babeljs.io/repl nos permite convertir jsx en html
+
+7.- Tener en cuenta la desectructuracion de objetos en javascript en el fichero index.js
+
+8.- Desde la pagina Creat React App podemos ver la forma de añadir estilos en componentes. En el fichero index.css
+9.- index.css estilos globales
+
+10.- Podemos ver cuando ejecutamos nuestra página web en inspeccionar el resultado de convertir jsx en html
+
+
