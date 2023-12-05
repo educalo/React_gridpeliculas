@@ -6,3 +6,22 @@
 5.- borro fichero del src todo menos index.css y index.js y modifico este ultimo
 
 6.- La pagina https://babeljs.io/repl nos permite convertir jsx en html
+
+7.- Tener en cuenta la desectructuracion de objetos en javascript en el fichero index.js
+
+8.- Desde la pagina Creat React App podemos ver la forma de añadir estilos en componentes. En el fichero index.css
+9.- index.css estilos globales
+
+10.- Podemos ver cuando ejecutamos nuestra página web en inspeccionar el resultado de convertir jsx en html
+
+11.- Creo un componente en un fichero que lo voy a llamar App.jsx
+
+12.- Creo un nuevo componente que se llama MoviesGrid.jsx
+13.- Añado un fichero en src que se llama movies.json
+
+14.- Añado un nuevo componente MovieCard.jsx
+15.- Para añadir estilos solo a un componente tengo que añadir MovieCard.modulo.css, el nombre de este css es una convencion de Create React App
+
+16.- Creamos el fichero MoviesGrid.module.css para crear estilos al modulo MoviesGrid.jsx
+17.- Modifico el fichero MoviesGrid.jsx para añadir este nuevo estilo
+18.- Añado otro fichero App.module.css para crear estilos al modulo App.jpx
