@@ -1,0 +1,8 @@
+1.- Para crear proyecto: npx create-react-app peliculas-react --use-npm
+2.- cd peliculas-react
+3.- npm start
+
+4.- La estructura tenemos una carpeta public donde tenemos index.html en el div se inyectara todo el dom que genera REACT
+5.- borro fichero del src todo menos index.css y index.js y modifico este ultimo
+
+6.- La pagina https://babeljs.io/repl nos permite convertir jsx en html
