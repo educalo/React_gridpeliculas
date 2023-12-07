@@ -6,3 +6,42 @@
 5.- borro fichero del src todo menos index.css y index.js y modifico este ultimo
 
 6.- La pagina https://babeljs.io/repl nos permite convertir jsx en html
+
+7.- Tener en cuenta la desectructuracion de objetos en javascript en el fichero index.js
+
+8.- Desde la pagina Creat React App podemos ver la forma de añadir estilos en componentes. En el fichero index.css
+9.- index.css estilos globales
+
+10.- Podemos ver cuando ejecutamos nuestra página web en inspeccionar el resultado de convertir jsx en html
+
+11.- Creo un componente en un fichero que lo voy a llamar App.jsx
+
+12.- Creo un nuevo componente que se llama MoviesGrid.jsx
+13.- Añado un fichero en src que se llama movies.json
+
+14.- Añado un nuevo componente MovieCard.jsx
+15.- Para añadir estilos solo a un componente tengo que añadir MovieCard.modulo.css, el nombre de este css es una convencion de Create React App
+
+16.- Creamos el fichero MoviesGrid.module.css para crear estilos al modulo MoviesGrid.jsx
+17.- Modifico el fichero MoviesGrid.jsx para añadir este nuevo estilo
+18.- Añado otro fichero App.module.css para crear estilos al modulo App.jpx
+
+
+19.- Se va ha mejorar que cuando hagamos click en una imagen se vaya a los detalles de esa imagen, para ello vamos a utilizar una libreria que se llama "react router dom"
+20.- para instalarla npm install react-router-dom@5.2.0, dentro de package.json se crea una nueva dependencia que se llama react-router-dom
+
+21.- Necesitamos otro componente donde se muestren los detalles de las peliculas
+22.- Creo una carpeta pages donde voy a meter las paginas principales que voy a acceder mediante las rutas
+23.- Creo otra carpeta components donde voy a poner todos los componentes que van a ser reutilizables.
+24.- Muevo todos los fichero de src al componentes excepto el index.js,index.css y App.jsx
+25.- las rutas de los ficheros de index.js debo de cambiarlas
+
+26.- En el routing podemos declarar las rutas que Necesitamos
+27.- Desde App.jsx vamos a utilizar todos los componentes y el examblado de todo
+28.- Añadimos el codigo de react-router-dom quick Start donde aparece switch
+
+29.- Creo una nueva pagina de detalles MovieDetails.jsx
+30.- Creamos la pagina LnadingPage.jsx como la pagina de entrada a mi portal
+
+31.- Creo un fichero dentro de pages llamado movie.json con los detalles de la pelicula
+32.- Creo el fichero MovieDetails.module.css
