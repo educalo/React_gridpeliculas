@@ -1,0 +1,27 @@
+/*defino un flex*/
+/*La propiedad CSS flex es una propiedad resumida que indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible. Los elementos flexibles pueden ser estirados para utilizar el espacio disponible proporcional a su factor de crecimiento flexible o su factor de contracción flexible para evitar desbordamiento.*/
+/*wrap si no cabe lo encaja hacia abajo */
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+  }
+  
+  .movieImage {
+    border-radius: 15px;
+  }
+  
+  .movieDetails {
+    font-size: 1.5rem;
+  }
+  
+  .firstItem {
+    margin-top: 0;
+  }
