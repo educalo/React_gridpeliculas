@@ -1,6 +1,6 @@
 npm install para instalar las dependencias definidas el fichero package.json. la carpeta node_modules esta incluida en .gitignore para no subirlas a github
 
-Añadimos las funcionalidades de css a nivel de componentes y la creación de un grid con css
+Añadimos las funcionalidades de json remoto y enlaces variables según la pelicula clickeada
 
 # Getting Started with Create React App
 
