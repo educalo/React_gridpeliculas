@@ -6,3 +6,85 @@
 5.- borro fichero del src todo menos index.css y index.js y modifico este ultimo
 
 6.- La pagina https://babeljs.io/repl nos permite convertir jsx en html
+
+7.- Tener en cuenta la desectructuracion de objetos en javascript en el fichero index.js
+
+8.- Desde la pagina Creat React App podemos ver la forma de añadir estilos en componentes. En el fichero index.css
+9.- index.css estilos globales
+
+10.- Podemos ver cuando ejecutamos nuestra página web en inspeccionar el resultado de convertir jsx en html
+
+11.- Creo un componente en un fichero que lo voy a llamar App.jsx
+
+12.- Creo un nuevo componente que se llama MoviesGrid.jsx
+13.- Añado un fichero en src que se llama movies.json
+
+14.- Añado un nuevo componente MovieCard.jsx
+15.- Para añadir estilos solo a un componente tengo que añadir MovieCard.modulo.css, el nombre de este css es una convencion de Create React App
+
+16.- Creamos el fichero MoviesGrid.module.css para crear estilos al modulo MoviesGrid.jsx
+17.- Modifico el fichero MoviesGrid.jsx para añadir este nuevo estilo
+18.- Añado otro fichero App.module.css para crear estilos al modulo App.jpx
+
+
+19.- Se va ha mejorar que cuando hagamos click en una imagen se vaya a los detalles de esa imagen, para ello vamos a utilizar una libreria que se llama "react router dom"
+20.- para instalarla npm install react-router-dom@5.2.0, dentro de package.json se crea una nueva dependencia que se llama react-router-dom
+
+21.- Necesitamos otro componente donde se muestren los detalles de las peliculas
+22.- Creo una carpeta pages donde voy a meter las paginas principales que voy a acceder mediante las rutas
+23.- Creo otra carpeta components donde voy a poner todos los componentes que van a ser reutilizables.
+24.- Muevo todos los fichero de src al componentes excepto el index.js,index.css y App.jsx
+25.- las rutas de los ficheros de index.js debo de cambiarlas
+
+26.- En el routing podemos declarar las rutas que Necesitamos
+27.- Desde App.jsx vamos a utilizar todos los componentes y el examblado de todo
+28.- Añadimos el codigo de react-router-dom quick Start donde aparece switch
+
+29.- Creo una nueva pagina de detalles MovieDetails.jsx
+30.- Creamos la pagina LnadingPage.jsx como la pagina de entrada a mi portal
+
+31.- Creo un fichero dentro de pages llamado movie.json con los detalles de la pelicula
+32.- Creo el fichero MovieDetails.module.css
+
+33.- Las llamadas a las apis remotas se deben hacer desde los hook de react, tal como se detalla en MoviesGrid.jsx
+
+34.- Creo la carpeta utils y creo el fichero httpClient.js para la llamada a la Api
+
+35.- Mirar web de la api https://developer.themoviedb.org/reference/intro/getting-started
+36.- Hay que darse de alta para conseguir un token que es que el que te va permitir conectarte a esa Api
+
+37.- En el fichero MovieDetails.jsx añado un hook de estado para comprobar el estado de carga de cada pelicula
+38. Creo un componente dentro de la carpeta components que va a llamar spinner.jsx para hacer un pequeño icono que se mueva mientras se va cargando la imagen
+
+39.- Utilizo un banco de iconos https://www.npmjs.com/package/react-icons
+40.- Para instalarlo npm install react-icons
+41.- Busco un spinner
+42.- Creo un estilo para el componente spinner.jsx que lo llamo Spinner.module.css
+
+43.- Añadimos busqueda dinamica, vamos a crear componente Search.jsx y el fichero de estilos Search.module.css
+44.- Modifico el fichero LandingPage.jsx
+
+45.- Se crea una carpeta nueva que se llama hooks y dentro useQuery.jsx
+
+46.- Añadimos el fichero .gitignore
+47.- Para usa la Api de peliculas tenemos que darnos de alta y irnos a nuestro perfil->configuracion y buscar la opcion API. https://www.themoviedb.org/ 
+48.- Dentro de la seccion de discover se ve como funciona la Api
+49.- Tal como se muestra en inspeccionar->Fetch la Api nos retorna la primera página de resultados.
+50.- En la documentacion de la Api podemos ver que esto es un parametro en Query String
+51.- Vamos hacer que cuando vayamos al final de scroll se cargen mas peliculas, se llama scroll infinito
+52.- Vamos a utilizar un componente de react que se llama react-infinite-scroll-component https://www.npmjs.com/package/react-infinite-scroll-component
+53.- Vamos a cambiar el codigo de la pagina MoviesGrid.jsx
+
+55.- Vamos a mejorar la busqueda que conforme añadamos texto en nuestro input se visualice ese resultado
+56.- Vamos a utilizar un hook debounce para cada vez que añadamos texto en el input pasado un tiempo haga la busqueda. https://usehooks.com/usedebounce
+57.- Añado dentro de la carpeta hooks el fichero useDebounce.jsx
+
+58.- Ya no es necesario el boton de busqueda, la lupa, se queda como una imagen pero ya no es pulsable
+
+59.- Hay algunas peliculas que no tienen imagen, en este caso ponerle una por defecto
+60.- Añado la imagen placeholder.png
+61.- Importamos ese placeholder en MovieCard.jsx
+62.- Para no repetir el codigo de detalles y en el grid voy a crear una funcion en utils que voy a llamar getMovieImg.js
+
+63.- Si la busqueda es vacia añadimos un nuevo componente para que lo indique. Empty.jsx
+64.- Cambio codigo MovieGrid.jsx
