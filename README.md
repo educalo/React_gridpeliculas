@@ -1,6 +1,6 @@
 npm install para instalar las dependencias definidas el fichero package.json. la carpeta node_modules esta incluida en .gitignore para no subirlas a github
 
-Añadimos las funcionalidades de css a nivel de componentes y la creación de un grid con css
+Añadimos las funcionalidades coger más peliculas con la utilidad debounce para añadir mas datos cuando llegamos al final del scroll de la página, también añadimos imagen por defecto para la pelicula que no tenga imagen, corregimos error de busquedas vacias
 
 # Getting Started with Create React App
 
