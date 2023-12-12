@@ -1,3 +1,5 @@
+PROYECTO REACT
+
 npm install para instalar las dependencias definidas el fichero package.json. la carpeta node_modules esta incluida en .gitignore para no subirlas a github
 
 # Getting Started with Create React App
